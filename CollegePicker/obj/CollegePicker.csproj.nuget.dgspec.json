@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Coding\\VetTecProject\\CollegePicker\\CollegePicker\\CollegePicker.csproj": {}
+    "C:\\Users\\DanJo\\Source\\Repos\\MUVP-CollegeApp\\CollegePicker\\CollegePicker.csproj": {}
   },
   "projects": {
-    "C:\\Coding\\VetTecProject\\CollegePicker\\CollegePicker\\CollegePicker.csproj": {
+    "C:\\Users\\DanJo\\Source\\Repos\\MUVP-CollegeApp\\CollegePicker\\CollegePicker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Coding\\VetTecProject\\CollegePicker\\CollegePicker\\CollegePicker.csproj",
+        "projectUniqueName": "C:\\Users\\DanJo\\Source\\Repos\\MUVP-CollegeApp\\CollegePicker\\CollegePicker.csproj",
         "projectName": "CollegePicker",
-        "projectPath": "C:\\Coding\\VetTecProject\\CollegePicker\\CollegePicker\\CollegePicker.csproj",
-        "packagesPath": "C:\\Users\\antho\\.nuget\\packages\\",
-        "outputPath": "C:\\Coding\\VetTecProject\\CollegePicker\\CollegePicker\\obj\\",
+        "projectPath": "C:\\Users\\DanJo\\Source\\Repos\\MUVP-CollegeApp\\CollegePicker\\CollegePicker.csproj",
+        "packagesPath": "C:\\Users\\DanJo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DanJo\\Source\\Repos\\MUVP-CollegeApp\\CollegePicker\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\antho\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\DanJo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -37,6 +41,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

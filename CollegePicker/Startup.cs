@@ -19,7 +19,31 @@ namespace CollegePicker
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-        }
+            //Template to set up server
+            // services.AddTransient<IUserProfileRepository, UserProfileRepository>();
+
+
+            //IF we use firebase, this is an example of frontside 
+            //var firebaseProjectId = Configuration.GetValue<string>("FirebaseProjectId");
+            //var googleTokenUrl = $"https://securetoken.google.com/{firebaseProjectId}";
+            //services
+            //    .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+            //    .AddJwtBearer(options =>
+            //    {
+            //        options.Authority = googleTokenUrl;
+            //        options.TokenValidationParameters = new TokenValidationParameters
+            //            {
+            //            ValidateIssuer = true,
+            //            ValidIssuer = googleTokenUrl,
+            //            ValidateAudience = true,
+            //            ValidAudience = firebaseProjectId,
+            //            ValidateLifetime = true
+            //            };
+            //    });
+
+
+
+            }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
